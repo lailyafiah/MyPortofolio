@@ -1,0 +1,63 @@
+.navbar-brand {
+  font-family: "Dancing Script", cursive;
+
+  font-size: x-large;
+}
+.nav-link {
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+  font-size: smaller;
+}
+.navbar-brand,
+.nav-link {
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.377);
+}
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #f6f6f6;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #a2d2ff;
+  font-family: "Domine", serif;
+}
+
+#about {
+  background-color: #ffffff;
+  font-family: "Domine", serif;
+}
+
+.h2 {
+  font-family: "Domine", serif;
+  font-style: italic;
+}
+
+#projects {
+  background-color: #a2d2ff;
+}
+
+.footer {
+  background-color: #00458b;
+  font-family: "Caveat", cursive;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#contact {
+  background-color: #f3f4f5;
+}
+
+#section {
+  padding-top: 5rem;
+}
